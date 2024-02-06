@@ -13,15 +13,12 @@ styleLayers = [
 	"block5_conv1"
 ]
 
-# define the style weight, content weight, and total-variational
-# loss weight, respectively (these are the values you'll want to
-# tune to generate new style transfers)
+# define the style weight, content weight, and total-variational loss weight
 styleWeight = 1.0
 contentWeight = 1e4
 tvWeight = 20.0
 
-# define the number of epochs to train for along with the steps
-# per each epoch
+# define the number of epochs to train for along with the steps per each epoch
 epochs = 15
 stepsPerEpoch = 100
 
